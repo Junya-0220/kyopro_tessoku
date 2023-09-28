@@ -1,3 +1,10 @@
+/*
+3≤N≤100000
+1≤D≤100000
+1≤Ai≤100
+2≤Li≤Ri≤N−1
+*/
+
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -15,7 +22,6 @@ int main() {
 	// P[i] を求める
 	P[1] = A[1];
 	for (int i = 2; i <= N; i++) P[i] = max(P[i - 1], A[i]);
-
 	// Q[i] を求める
 	Q[N] = A[N];
 	for (int i = N - 1; i >= 1; i--) Q[i] = max(Q[i + 1], A[i]);

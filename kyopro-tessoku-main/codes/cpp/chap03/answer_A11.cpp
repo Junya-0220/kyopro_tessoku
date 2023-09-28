@@ -1,3 +1,11 @@
+/*
+入力
+15 47
+11 13 17 19 23 29 31 37 41 43 47 53 59 61 67
+出力
+11
+*/
+
 #include <iostream>
 using namespace std;
 
