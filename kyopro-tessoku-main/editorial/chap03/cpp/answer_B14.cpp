@@ -1,3 +1,10 @@
+/*
+6 30
+5 1 18 7 2 9
+
+Yes
+*/
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
